@@ -1,0 +1,57 @@
+:root {
+  --primary-color: orangered;
+  --secondary-color: rgba(255, 69, 0, 0.2);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  margin: 60px auto;
+  max-width: 800px;
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-size: 70px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  max-width: 600px;
+  margin: 60px auto;
+  display: block;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.photo-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.homepage-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
